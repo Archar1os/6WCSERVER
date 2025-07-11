@@ -1,18 +1,18 @@
 const calculation = require('./calculation.js');
 //Initial Values
-var hoursWorked = 4;
-var hourlyRate = 300;
-var daysperWeek = 6;
-//Calculations
+var hoursWorked = 8;
+var hourlyRate = 500;
+var daysperWeek = 4;
+//Calculating Gross Income and Tax Rate
 var grossIncome = calculation.multiply(calculation.multiply(hoursWorked,hourlyRate),daysperWeek);
-
-//10% tax rate
-var taxRate = calculation.multiply(0.1, grossIncome); 
+var tax = 0.10; //15% tax rate
+var taxRate = calculation.multiply(tax, grossIncome); 
 
 var SSS = 1200;
 var PAGIBIG = 300;
 var PhilHealth = 400;
 
+//Calculations
 console.log("The gross income is", grossIncome);
 
 console.log("Tax:", taxRate);
