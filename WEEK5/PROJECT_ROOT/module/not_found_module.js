@@ -1,11 +1,11 @@
-var footer = require('../module/footer_module.js');
-
+var footer = require('./footer_module.js');
 module.exports = function() {
     return `
     <html>
-      <head><title>Error 404</title></head>
+      <head><title>404 - Page Not Found</title></head>
       <body>
-        <h1>Invalid Request. Error 404.</h1>
+        <h1>404 - Page Not Found</h1>
+        <p></p>
         ${footer()}
       </body>
     </html>
