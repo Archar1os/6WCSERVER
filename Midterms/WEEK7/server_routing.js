@@ -19,8 +19,12 @@ app.get('/list_users', function (req, res) {
 app.get('/ac*cd', function (req, res) {
     console.log('Got a GET request for /ac*cd.');
     res.send('Pattern Match Page.');
-}
-);
+});
+
+app.get('/yourprofile', function (req, res) {
+    console.log('Got a GET request for /profile.');
+    res.send('Name: Romero, Smith Dainielle L. | Age: 20 | Occupation: Student | Section: WD-301 | Description: Web Developer is a tech-savvy professional responsible for designing, coding, and maintaining websites and web applications. They transform user needs and business goals into functional, visually appealing digital experiences. | Hobbies: Reading, Gaming, and Coding');
+    res.send('Description: Web Developer is a tech-savvy professional responsible for designing, coding, and maintaining websites and web applications. They transform user needs and business goals into functional, visually appealing digital experiences. | Hobbies: Reading, Gaming, and Coding');});
 var server = app.listen(4000, function () {
     var host = server.address().address;
     var port = server.address().port;
