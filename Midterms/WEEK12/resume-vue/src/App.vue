@@ -35,6 +35,7 @@ body {
   width: 1150px;
   min-height: 100vh;
   padding: 40px;
+  margin: 30px;
   box-sizing: border-box;
 }
 @media (max-width: 1200px) {

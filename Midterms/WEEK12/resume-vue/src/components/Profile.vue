@@ -3,7 +3,7 @@
 <section class="resume-section">
   <div class="flex-here under-here">
     <h2 class="bordernone">Profile</h2>
-      <img src="../assets/profile.png" alt="Profile Picture" width="100" height="100"/>
+      <img src="../assets/profile.jpg" alt="Profile Picture" width="100" height="100"/>
 </div>
     <p><strong>Name:</strong> Smith Dainielle L. Romero</p>
     <p><strong>Email:</strong> smithdainromero@gmail.com</p>
@@ -41,5 +41,6 @@ export default {
   }
   img {
     width: 125px;
+    border-radius: 5%;
   }
 </style>
